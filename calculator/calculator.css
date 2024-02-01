@@ -1,0 +1,88 @@
+.mainDesignBlock {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: maroon;
+    gap: 10px;
+    padding-left: 12px;
+    padding-bottom: 11px;
+}
+.inputText {
+  height: 150px;
+  width: 390px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: black;
+}
+.operators {
+  display: flex;
+  height: 100px;
+  width: 390px;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.operatorSymbol {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.numbersBlock {
+  display: flex;
+  height: 100px;
+  width: 390px;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.numbers {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.equalTo {
+  display: flex;
+  height: 100px;
+  width: 390px;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.equalSymbol {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: space-evenly;
+}
